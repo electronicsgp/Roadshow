@@ -1,0 +1,683 @@
+/* custom properties */
+
+:root {
+    --primary-black: #000000;
+    --primary-cream: #022E38;
+    --secondary-black: #332C22;
+    --secondary-cream: #01FFFF;
+    --dark-cream: #A87A16;
+    --white: #FFFFFF;
+    --tea: #00937A;
+    --bg-nav: #0A1A1E;
+    --bg-form: #3598DB;
+    --bg-gray: #E6E7E8;
+    --bg-ticket: #d8ebf9;
+    --contrast-footer: #f1f2f2;
+    --size-title: 28px;
+    --size-title-mobile: 18px;
+    --size-subtitle: 30px;
+    --size-subtitle-mobile: 22px;
+    --size-h3: 50px;
+    --size-h3-mobile: 20px;
+    --items-nav-footer: 16px;
+    --caption: 12px;
+    --body: 18px;
+    --body-mobile: 14px;
+    --footer-mobile: 11px;
+    --card-unit: 24px;
+    --card-unit-mobile: 15px;
+    --card-price: 32px;
+    --card-price-mobile: 28px;
+    --button: 14px;
+    --font-secondary: 'Poiret One', cursive;
+    --font-principal: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.text-cian {
+    color: var(--secondary-cream);
+}
+
+.text-pri {
+    color: var(--primary-cream);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50%;
+}
+
+.text-black {
+    color: var(--primary-black);
+}
+
+.bg-tick {
+    background-color: var(--bg-ticket);
+}
+
+.bg-boletof {
+    background-color: var(--bg-form);
+}
+
+.text-white {
+    color: var(--white);
+}
+
+.tpais {
+    line-height: 50%;
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--primary-cream);
+}
+
+.tnumber {
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.tcode {
+    color: var(--primary-black);
+    line-height: 0%;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.tcodenum {
+    color: var(--primary-black);
+    letter-spacing: -2px;
+    line-height: 40px;
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.fa-long-arrow-alt-right {
+    color: var(--bg-form);
+    font-size: 21px;
+}
+
+.font-w600 {
+    font-weight: 600;
+}
+
+.font-w700 {
+    font-weight: 700;
+}
+
+.font-w800 {
+    font-weight: 800;
+}
+
+body {
+    font-family: var(--font-principal);
+    font-size: var(--body-mobile)
+}
+
+h1,
+h2 {
+    font-size: var(--size-title-mobile);
+    font-family: var(--font-principal);
+}
+
+h3 {
+    font-size: var(--size-h3-mobile);
+}
+
+h5 {
+    font-size: var(--size-subtitle-mobile)
+}
+
+.btn-tea {
+    background-color: var(--tea);
+    color: var(--white);
+    font-weight: 800;
+}
+
+.btn-black {
+    background-color: var(--primary-black);
+    color: var(--white);
+    font-weight: 700;
+}
+
+.btn-tear {
+    background-color: var(--white);
+    color: var(--tea);
+    font-weight: 800;
+}
+
+.btn-p1 {
+    padding: 3% 6%;
+}
+
+.btn-p2 {
+    font-size: var(--size-subtitle-mobile);
+    padding: 1% 3%;
+    font-weight: 700;
+}
+
+.text-btn {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.boxshaw {
+    text-shadow: 10px 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+nav {
+    background-color: var(--bg-nav);
+}
+
+.nav-link {
+    color: var(--white);
+    font-size: 20px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: var(--white);
+}
+
+
+/* header section */
+
+
+/* .carousel-item {
+    height: 70vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
+
+.carousel-item .banner {
+    src: url("../assets/images/backgounds/movil.jpg");
+    height: 84vh;
+}
+
+.carousel-inner>.item {
+    position: relative;
+    max-height: 600px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-90%);
+    /* color: var(--primary-cream); */
+}
+
+.carousel-caption h1 {
+    font-size: 35px;
+}
+
+.carousel-caption img {
+    width: 80%;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-100%);
+    left: 38%;
+    transform: translateX(-40%);
+}
+
+.header h1 {
+    color: var(--white);
+    font-size: 20px;
+}
+
+.header img.icon-line {
+    display: none;
+}
+
+.header .text-slider {
+    height: 65vh;
+}
+
+.header .icon-arrow {
+    position: absolute;
+    bottom: calc(80vh - 100vh);
+    left: 43%;
+}
+
+.card {}
+
+.card .card-body {
+    padding-top: 0px;
+    padding-bottom: 3.5rem;
+    background-color: var(--primary-cream);
+    color: var(--white);
+    line-height: 25%;
+    border: transparent;
+}
+
+.card .card-header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: var(--primary-cream);
+    border: transparent;
+}
+
+.card .card-footer {
+    background-color: var(--secondary-cream);
+    color: var(--primary-cream);
+    border: transparent;
+}
+
+
+/* our-products section */
+
+.our-products {
+    /* background-color: var(--primary-cream); */
+    /* color: var(--white); */
+}
+
+.our-products .our-products-wrapper {
+    position: relative;
+}
+
+.our-products .our-products-wrapper .wrapper-title {
+    background-color: var(--secondary-black);
+    border-radius: 0px 75px;
+    color: var(--primary-cream);
+    height: 120px;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.our-products .our-products-wrapper .img-spoon {
+    position: absolute;
+    top: 75%;
+    width: 100%;
+}
+
+.footer {
+    background-color: var(--primary-cream);
+}
+
+.footer h6 {
+    margin: 2px;
+    font-size: var(--footer-mobile);
+    color: var(--white);
+}
+
+.bg-world {
+    background-image: url("../assets/images/backgounds/mundo3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: var(--contrast-footer);
+}
+
+.bg-sup {
+    background-image: url("../assets/images/backgounds/sboleto.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.bg-gray {
+    background-image: url("../assets/images/backgounds/sfecha.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: var(--bg-gray);
+}
+
+.brad-top {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.brad-bottom {
+    border-radius: 0px 0px 0px 0px;
+}
+
+.brad-bottomf {
+    border-radius: 0px 0px 20px 20px;
+}
+
+.modal select#inputState,
+.modal input[type],
+.modal textarea#TextareaMensaje {
+    border-radius: 20px;
+    background-color: var(--bg-form);
+}
+
+.modal select#inputState::-ms-expand {
+    border-radius: 20px;
+}
+
+.modal select#inputState,
+.modal input[type]::placeholder,
+.modal textarea#TextareaMensaje::placeholder {
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.titlebol {
+    margin: 0%;
+    font-size: 12px;
+    font-weight: 800;
+    color: var(--primary-black);
+}
+
+.note {
+    color: var(--primary-black);
+    font-size: 12px;
+    margin: 10px;
+}
+
+.sonda {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 50%;
+}
+
+.logos {
+    width: 100%;
+}
+
+
+/* Este es el diseño para nuestros mensajes de error */
+
+.error {
+    width: 100%;
+    padding: 0;
+    font-size: 70%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+}
+
+.error.active {
+    padding: 0.3em;
+}
+
+
+/* Media queries */
+
+@media only screen and (min-width: 768px) {
+    .carousel-item .banner {
+        content: url("../assets/images/backgounds/header.jpg");
+    }
+    .carousel-caption h1 {
+        position: absolute;
+        top: 75%;
+        transform: translateY(-60%);
+        left: 16%;
+        transform: translateX(-50%);
+    }
+    .carousel-caption h1 {
+        font-size: 50px;
+    }
+    .carousel-caption img {
+        width: 35%;
+        position: absolute;
+        top: 0%;
+        transform: translateY(-100%);
+        left: 68%;
+        transform: translateX(-40%);
+    }
+    .header .icon-arrow {
+        position: absolute;
+        bottom: calc(110vh - 100vh);
+        left: 50%;
+    }
+    .header h1 {
+        color: var(--white);
+        font-size: 40px;
+    }
+    .header .text-slider {
+        height: 100vh;
+    }
+    body {
+        font-size: var(--body)
+    }
+    h1,
+    h2 {
+        font-size: var(--size-title);
+    }
+    h3 {
+        font-size: var(--size-h3);
+    }
+    h5 {
+        font-size: var(--size-subtitle)
+    }
+    /* header section */
+    .header img.icon-line {
+        display: block;
+    }
+    .btn-p2 {
+        font-size: var(--body);
+    }
+    .text-btn {
+        font-size: 25px;
+    }
+    .titlebol {
+        font-size: 22px;
+    }
+    .tpais {
+        font-size: 35px;
+    }
+    .text-pri {
+        font-size: 52px;
+    }
+    .tnumber {
+        font-size: 20px;
+    }
+    .tcode {
+        font-size: 44px;
+    }
+    .tcodenum {
+        font-size: 54px;
+    }
+    .fa-long-arrow-alt-right {
+        font-size: 35px;
+    }
+    .sonda {
+        font-size: 25px;
+    }
+    /* contact us */
+    .contact-us {
+        background-image: url('../assets/images/backgounds/seed.jpg');
+    }
+    .contact-us .contact-layer {
+        height: 100vh;
+        background: linear-gradient(87.93deg, rgba(236, 206, 144, 0) 39.03%, #ECCE90 73.79%);
+    }
+    .contact-us .img-cup-desktop {
+        position: absolute;
+        top: 50%;
+        left: -24px;
+    }
+    .footer {
+        background-color: var(--primary-cream);
+    }
+    .footer h6 {
+        font-size: var(--body);
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .barra img {
+        content: url("../assets/images/products/codigo.png");
+    }
+    .titlebol {
+        font-size: 21px;
+    }
+    .tpais {
+        font-size: 20px;
+    }
+    .text-pri {
+        font-size: 25px;
+    }
+    .tnumber {
+        font-size: 8px;
+    }
+    .tcode {
+        font-size: 24px;
+    }
+    .tcodenum {
+        font-size: 27px;
+    }
+    .fa-long-arrow-alt-right {
+        font-size: 16px;
+    }
+    .sonda {
+        font-size: 12px;
+    }
+    .brad-bottom {
+        border-radius: 0px 0px 20px 20px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    /* .carousel-item {
+        background-image: url("../assets/images/backgounds/headerFutbol3.jpg");
+
+    } */
+    .carousel-caption h1 {
+        font-size: 60px;
+        top: calc(100vh - 75vh);
+        left: calc(100vh - 80vh);
+    }
+    .carousel-caption img {
+        width: 28%;
+    }
+    .tpais {
+        line-height: 50%;
+        font-size: 20px;
+        font-weight: 500;
+        color: var(--primary-cream);
+    }
+    .text-pri {
+        font-size: 25px;
+    }
+    .tnumber {
+        font-size: 8px;
+        font-weight: 700;
+        color: var(--white);
+    }
+    .tcode {
+        color: var(--primary-black);
+        line-height: 0%;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .tcodenum {
+        color: var(--primary-black);
+        letter-spacing: -2px;
+        line-height: 40px;
+        font-size: 26px;
+        font-weight: 700;
+        margin: 0px;
+    }
+    .fa-long-arrow-alt-right {
+        color: var(--bg-form);
+        font-size: 21px;
+    }
+    .sonda {
+        font-size: 13px;
+        font-weight: 800;
+        line-height: 50%;
+    }
+    .our-products .our-products-wrapper .img-spoon {
+        position: absolute;
+        top: 35%;
+        left: 25%;
+        width: 80%;
+    }
+    .card-product {
+        max-width: 350px;
+    }
+    .card-product .card-img-top {
+        width: 200px;
+    }
+    .contact-us .img-cup-desktop {
+        position: absolute;
+        left: -32px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .carousel-caption h1 {
+        position: absolute;
+        top: calc(100vh - 80vh);
+        left: calc(100vh - 80vh);
+        font-size: 90px;
+    }
+    .carousel-caption img {
+        width: 25%;
+        position: absolute;
+        top: -10%;
+        transform: translateY(-50%);
+        left: 78%;
+        transform: translateX(-70%);
+    }
+    .card-text {
+        font-size: 20px;
+        line-height: 10px;
+    }
+    .titlebol {
+        font-size: 33px;
+        font-weight: 800;
+    }
+    .tpais {
+        line-height: 60%;
+        font-size: 30px;
+        font-weight: 500;
+        color: var(--primary-cream);
+    }
+    .text-pri {
+        color: var(--primary-cream);
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 60%;
+    }
+    .tnumber {
+        font-size: 10px;
+        font-weight: 700;
+        color: var(--white);
+    }
+    .tcode {
+        line-height: 0%;
+        font-size: 42px;
+        font-weight: 400;
+    }
+    .tcodenum {
+        letter-spacing: -2px;
+        line-height: 40px;
+        font-size: 41px;
+        font-weight: 700;
+    }
+    .fa-long-arrow-alt-right {
+        font-size: 29px;
+    }
+    .sonda {
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 50%;
+    }
+    .barra img {
+        content: url("../assets/images/products/codigo.png");
+    }
+    .brad-bottom {
+        border-radius: 0px 0px 20px 20px;
+    }
+    /* .carousel-item {
+        background-image: url("../assets/images/backgounds/headerFutbol2.jpg");
+    } */
+}
