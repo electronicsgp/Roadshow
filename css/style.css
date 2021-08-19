@@ -17,8 +17,6 @@
     --size-title-mobile: 18px;
     --size-subtitle: 30px;
     --size-subtitle-mobile: 22px;
-    --size-h3: 50px;
-    --size-h3-mobile: 20px;
     --items-nav-footer: 16px;
     --caption: 12px;
     --body: 18px;
@@ -46,7 +44,7 @@
 .text-pri {
     color: var(--primary-cream);
     font-weight: 700;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 50%;
 }
 
@@ -68,7 +66,7 @@
 
 .tpais {
     line-height: 50%;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     color: var(--primary-cream);
 }
@@ -124,7 +122,7 @@ h2 {
 }
 
 h3 {
-    font-size: var(--size-h3-mobile);
+    font-size: 18px;
 }
 
 h5 {
@@ -132,7 +130,7 @@ h5 {
 }
 
 .btn-tea {
-    background-color: var(--tea);
+    background-color: var(--primary-cream);
     color: var(--white);
     font-weight: 800;
 }
@@ -144,8 +142,8 @@ h5 {
 }
 
 .btn-tear {
-    background-color: var(--white);
-    color: var(--tea);
+    background-color: var(--secondary-cream);
+    color: var(--primary-cream);
     font-weight: 800;
 }
 
@@ -270,6 +268,17 @@ nav {
     background-color: var(--secondary-cream);
     color: var(--primary-cream);
     border: transparent;
+}
+
+.card-text {
+    font-size: 25px;
+    line-height: 10px;
+}
+
+.btn-txtb {
+    font-size: 25px;
+    line-height: normal;
+    font-weight: 800;
 }
 
 
@@ -451,7 +460,7 @@ nav {
         font-size: var(--size-title);
     }
     h3 {
-        font-size: var(--size-h3);
+        font-size: 43px;
     }
     h5 {
         font-size: var(--size-subtitle)
@@ -459,6 +468,15 @@ nav {
     /* header section */
     .header img.icon-line {
         display: block;
+    }
+    .card-text {
+        font-size: 17px;
+        line-height: 5px;
+    }
+    .btn-txtb {
+        font-size: 25px;
+        line-height: normal;
+        font-weight: 800;
     }
     .btn-p2 {
         font-size: var(--body);
@@ -470,10 +488,10 @@ nav {
         font-size: 22px;
     }
     .tpais {
-        font-size: 35px;
+        font-size: 30px;
     }
     .text-pri {
-        font-size: 52px;
+        font-size: 40px;
     }
     .tnumber {
         font-size: 20px;
@@ -519,10 +537,10 @@ nav {
         font-size: 21px;
     }
     .tpais {
-        font-size: 20px;
+        font-size: 17px;
     }
     .text-pri {
-        font-size: 25px;
+        font-size: 19px;
     }
     .tnumber {
         font-size: 8px;
@@ -557,14 +575,25 @@ nav {
     .carousel-caption img {
         width: 28%;
     }
+    .card-text {
+        font-size: 25px;
+        line-height: 10px;
+    }
+    .btn-txtb {
+        font-size: 28px;
+        font-weight: 800;
+    }
+    h3 {
+        font-size: 58px;
+    }
     .tpais {
         line-height: 50%;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 500;
         color: var(--primary-cream);
     }
     .text-pri {
-        font-size: 25px;
+        font-size: 19px;
     }
     .tnumber {
         font-size: 8px;
@@ -628,8 +657,15 @@ nav {
         transform: translateX(-70%);
     }
     .card-text {
-        font-size: 20px;
+        font-size: 23px;
         line-height: 10px;
+    }
+    .btn-txtb {
+        font-size: 25px;
+        font-weight: 800;
+    }
+    h3 {
+        font-size: 75px;
     }
     .titlebol {
         font-size: 33px;
@@ -680,4 +716,18 @@ nav {
     /* .carousel-item {
         background-image: url("../assets/images/backgounds/headerFutbol2.jpg");
     } */
+}
+
+@media only screen and (min-width: 1500px) {
+    .card-text {
+        font-size: 28px;
+        line-height: 15px;
+    }
+    h3 {
+        font-size: 90px;
+    }
+    .btn-txtb {
+        font-size: 30px;
+        font-weight: 800;
+    }
 }

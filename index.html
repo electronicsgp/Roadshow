@@ -100,8 +100,8 @@
                 <div class="row py-5 d-flex justify-content-center">
 
 
-                    <div class="col-12 col-md-3  d-flex justify-content-center py-4 pb-md-1">
-                        <div class="card w-75">
+                    <div class="col-12 col-md-4  col-xl-3  d-flex justify-content-center py-4 pb-md-1">
+                        <div class="card w-100">
                             <div class="card-header text-right">
                                 <img src="./assets/chile.svg" alt="" class="img-fluid" style="width: 40%;">
                             </div>
@@ -112,15 +112,15 @@
                                 <p class="card-text font-w800">27 DE SEPTIEMBRE</p>
                             </div>
                             <div class="card-footer h-50 d-flex align-items-center justify-content-center">
-                                <a href="#" class="btn" role="button" aria-pressed="true" data-toggle="modal" data-target=".modal-chile">
-                                    <h4 class="font-w800 text-center">ADQUIERE TU BOLETO</h4>
+                                <a href="#" class="btn btn-txtb" role="button" aria-pressed="true" data-toggle="modal" data-target=".modal-chile">
+                                    ADQUIERE TU BOLETO
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-3 d-flex justify-content-center py-4 pb-md-1">
-                        <div class="card w-75">
+                    <div class="col-12 col-md-4 col-xl-3 offset-xl-1 d-flex justify-content-center py-4 pb-md-1">
+                        <div class="card ">
                             <div class="card-header text-right">
                                 <img src="./assets/mexico.svg" alt="" class="img-fluid" style="width: 40%;">
                             </div>
@@ -131,16 +131,15 @@
                                 <p class="card-text font-w800">30 DE SEPTIEMBRE</p>
                             </div>
                             <div class="card-footer h-50 d-flex align-items-center justify-content-center">
-                                <a href="#" class="btn" role="button" aria-pressed="true" data-toggle="modal" data-target=".modal-mexico">
-                                    <h4 class="font-w800 text-center">ADQUIERE TU BOLETO</h4>
+                                <a href="#" class="btn btn-txtb" role="button" aria-pressed="true" data-toggle="modal" data-target=".modal-mexico">
+                                    ADQUIERE TU BOLETO
                                 </a>
-
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-3 d-flex justify-content-center py-4 pb-md-1">
-                        <div class="card w-75">
+                    <div class="col-12 col-md-4 col-xl-3 offset-xl-1 d-flex justify-content-center py-4 pb-md-1">
+                        <div class="card ">
                             <div class="card-header text-right">
                                 <img src="./assets/colombia.svg" alt="" class="img-fluid" style="width: 40%;">
                             </div>
@@ -151,8 +150,8 @@
                                 <p class="card-text font-w800">28 DE OCTUBRE</p>
                             </div>
                             <div class="card-footer h-50 d-flex align-items-center justify-content-center">
-                                <a href="#" class="btn" role="button" aria-pressed="true" data-toggle="modal" data-target=".modal-colombia">
-                                    <h4 class="font-w800 text-center">ADQUIERE TU BOLETO</h4>
+                                <a href="#" class="btn btn-txtb" role="button" aria-pressed="true" data-toggle="modal" data-target=".modal-colombia">
+                                    ADQUIERE TU BOLETO
                                 </a>
                             </div>
                         </div>
@@ -163,10 +162,10 @@
                 <div class="row py-5">
 
                     <div class="col-12 text-center">
-                        <h3 class="font-w800 text-tea">SONDA ROADSHOW LATAM</h3>
+                        <h3 class="font-w700 text-tea">SONDA ROADSHOW LATAM</h3>
 
                         <div class="col-12 d-flex justify-content-center">
-                            <div class="row  w-75 " style="background-color: #FF7A03;">
+                            <div class="row w-75" style="background-color: #FF7A03;">
                                 &nbsp;
                             </div>
                         </div>
@@ -196,9 +195,14 @@
     <!-- modal chile -->
 
     <div class="modal fade modal-chile" tabindex="-1" role="dialog" aria-labelledby="modalCh" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
+        <div class="modal-dialog modal-xl modalxl">
             <div class="modal-content">
-                <div class="modal-body">
+                <div class="modal-header p-1 mheader">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true" >&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mbodyF">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-lg-8 bg-sup brad-top ">
@@ -235,7 +239,7 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-lg-10 pt-3">
-                                            <form name="sondareg">
+                                            <form name="formCH">
                                                 <div class="form-row">
                                                     <div class="form-group col-md-6">
                                                         <input type="text" class="form-control" id="inputNombre" name="Nombre" placeholder="Nombre(s):" required>
@@ -246,7 +250,7 @@
                                                 </div>
                                                 <div class="form-row">
                                                     <div class="form-group col-md-6">
-                                                        <input type="email" class="form-control" id="inputEmail" name="email" placeholder="e-mail:" required>
+                                                        <input type="email" class="form-control inputEmail" id="inputEmail" name="email" placeholder="e-mail:" required>
                                                         <span class="error" aria-live="polite"></span>
                                                     </div>
                                                     <div class="form-group col-md-6">
@@ -259,7 +263,7 @@
                                                     </div>
                                                     <div class="form-group col-md-6">
 
-                                                        <select id="inputState" class="form-control" name="tipo" required> 
+                                                        <select id="inputState" class="form-control" name="Destino" required> 
                                                             <option hidden disabled selected value="">Destino Origen:</option>
                                                             <option value="MX">M&eacute;xico</option>
                                                             <option value="COL">Colombia</option>
@@ -281,7 +285,7 @@
                                                 </div>
                                                 <div class="row d-flex justify-content-center">
                                                     <div class="col-md-12 text-right">
-                                                        <button type="submit" class="btn btn-black rounded-pill" id="env">ENVIAR</button>
+                                                        <button type="submit" class="btn btn-black rounded-pill env">ENVIAR</button>
                                                     </div>
                                                 </div>
 
@@ -364,6 +368,31 @@
 
                     </div>
                 </div>
+                <div class="modal-body d-none mbodyT">
+                    <div class="container-fluid">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-12  bg-boletof brad-top">
+                                <p class="titlebol text-center">REGISTRO EXITOSO</p>
+                            </div>
+                            <div class="col-12 col-lg-8 py-2">
+                                <h2 class="text-center">¡Gracias por acompañarnos en este viaje!</h2>
+                                <p class="text-center">En breve recibirás tu acceso al evento</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center pb-2">
+                        <div class="col-10 col-lg-3">
+                            <button type="button" class="btn btn-tea btn-block btn-p1 rounded-pill" data-dismiss="modal">CONTINUAR</button>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center py-2">
+                        <div class="col-10 col-lg-5">
+                            <button type="button" class="btn btn-tear btn-p2 rounded-pill">AGREGA EL EVENTO A TU CALENDARIO</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -371,9 +400,14 @@
     <!-- modal mexico -->
 
     <div class="modal fade modal-mexico" tabindex="-1" role="dialog" aria-labelledby="modalMx" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
+        <div class="modal-dialog modal-xl modalxl">
             <div class="modal-content">
-                <div class="modal-body">
+                <div class="modal-header p-1 mheader">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true" >&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mbodyF">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-lg-8 bg-sup brad-top ">
@@ -410,7 +444,7 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-lg-10 pt-3">
-                                            <form name="sondareg">
+                                            <form name="formMX">
                                                 <div class="form-row">
                                                     <div class="form-group col-md-6">
                                                         <input type="text" class="form-control" id="inputNombre" name="Nombre" placeholder="Nombre(s):" required>
@@ -421,7 +455,7 @@
                                                 </div>
                                                 <div class="form-row">
                                                     <div class="form-group col-md-6">
-                                                        <input type="email" class="form-control" id="inputEmail" name="email" placeholder="e-mail:" required>
+                                                        <input type="email" class="form-control inputEmail" id="inputEmail" name="email" placeholder="e-mail:" required>
                                                         <span class="error" aria-live="polite"></span>
                                                     </div>
                                                     <div class="form-group col-md-6">
@@ -434,7 +468,7 @@
                                                     </div>
                                                     <div class="form-group col-md-6">
 
-                                                        <select id="inputState" class="form-control" name="tipo" required> 
+                                                        <select id="inputState" class="form-control" name="Destino" required> 
                                                             <option hidden disabled selected value="">Destino Origen:</option>
                                                             <option value="MX">M&eacute;xico</option>
                                                             <option value="COL">Colombia</option>
@@ -456,7 +490,7 @@
                                                 </div>
                                                 <div class="row d-flex justify-content-center">
                                                     <div class="col-md-12 text-right">
-                                                        <button type="submit" class="btn btn-black rounded-pill" id="env">ENVIAR</button>
+                                                        <button type="submit" class="btn btn-black rounded-pill env">ENVIAR</button>
                                                     </div>
                                                 </div>
 
@@ -539,6 +573,31 @@
 
                     </div>
                 </div>
+                <div class="modal-body d-none mbodyT">
+                    <div class="container-fluid">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-12  bg-boletof brad-top">
+                                <p class="titlebol text-center">REGISTRO EXITOSO</p>
+                            </div>
+                            <div class="col-12 col-lg-8 py-2">
+                                <h2 class="text-center">¡Gracias por acompañarnos en este viaje!</h2>
+                                <p class="text-center">En breve recibirás tu acceso al evento</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center pb-2">
+                        <div class="col-10 col-lg-3">
+                            <button type="button" class="btn btn-tea btn-block btn-p1 rounded-pill" data-dismiss="modal">CONTINUAR</button>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center py-2">
+                        <div class="col-10 col-lg-5">
+                            <button type="button" class="btn btn-tear btn-p2 rounded-pill">AGREGA EL EVENTO A TU CALENDARIO</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -546,9 +605,14 @@
     <!-- modal colombia -->
 
     <div class="modal fade modal-colombia" tabindex="-1" role="dialog" aria-labelledby="modalCol" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
+        <div class="modal-dialog modal-xl modalxl">
             <div class="modal-content">
-                <div class="modal-body">
+                <div class="modal-header p-1 mheader">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true" >&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mbodyF">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-lg-8 bg-sup brad-top ">
@@ -585,7 +649,7 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-lg-10 pt-3">
-                                            <form name="sondareg">
+                                            <form name="formCOL">
                                                 <div class="form-row">
                                                     <div class="form-group col-md-6">
                                                         <input type="text" class="form-control" id="inputNombre" name="Nombre" placeholder="Nombre(s):" required>
@@ -596,7 +660,7 @@
                                                 </div>
                                                 <div class="form-row">
                                                     <div class="form-group col-md-6">
-                                                        <input type="email" class="form-control" id="inputEmail" name="email" placeholder="e-mail:" required>
+                                                        <input type="email" class="form-control inputEmail" id="inputEmail" name="email" placeholder="e-mail:" required>
                                                         <span class="error" aria-live="polite"></span>
                                                     </div>
                                                     <div class="form-group col-md-6">
@@ -609,7 +673,7 @@
                                                     </div>
                                                     <div class="form-group col-md-6">
 
-                                                        <select id="inputState" class="form-control" name="tipo" required> 
+                                                        <select id="inputState" class="form-control" name="Destino" required> 
                                                             <option hidden disabled selected value="">Destino Origen:</option>
                                                             <option value="MX">M&eacute;xico</option>
                                                             <option value="COL">Colombia</option>
@@ -631,7 +695,7 @@
                                                 </div>
                                                 <div class="row d-flex justify-content-center">
                                                     <div class="col-md-12 text-right">
-                                                        <button type="submit" class="btn btn-black rounded-pill" id="env">ENVIAR</button>
+                                                        <button type="submit" class="btn btn-black rounded-pill env">ENVIAR</button>
                                                     </div>
                                                 </div>
 
@@ -714,6 +778,31 @@
 
                     </div>
                 </div>
+                <div class="modal-body d-none mbodyT">
+                    <div class="container-fluid">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-12  bg-boletof brad-top">
+                                <p class="titlebol text-center">REGISTRO EXITOSO</p>
+                            </div>
+                            <div class="col-12 col-lg-8 py-2">
+                                <h2 class="text-center">¡Gracias por acompañarnos en este viaje!</h2>
+                                <p class="text-center">En breve recibirás tu acceso al evento</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center pb-2">
+                        <div class="col-10 col-lg-3">
+                            <button type="button" class="btn btn-tea btn-block btn-p1 rounded-pill" data-dismiss="modal">CONTINUAR</button>
+                        </div>
+                    </div>
+                    <div class="row d-flex justify-content-center py-2">
+                        <div class="col-10 col-lg-5">
+                            <button type="button" class="btn btn-tear btn-p2 rounded-pill">AGREGA EL EVENTO A TU CALENDARIO</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -722,74 +811,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js " integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 " crossorigin="anonymous "></script>
     <script src="./js/main.js "></script>
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbzMew2qwtGIV15hjOYlXj_fjJBkz9zvYFClWXyjI7uOoCtVBDJS4uvDNvAzcdG-dG9Y/exec'
-        const form = document.forms['sondareg']
-        let titleM = document.getElementById("mheader");
-        let titleMC = document.getElementById("tmheader");
-        let titleMB = document.getElementById("mbody");
-        let titleMBC = document.getElementById("tmbody");
-        let btnEn = document.getElementById("env");
-        let email = document.getElementById("inputEmail");
-        const otroe = document.querySelector('#inputEmail');
-        const otro = document.querySelector('#env');
 
-        let error = email;
-        while ((error = error.nextSibling).nodeType != 1);
-
-
-
-        form.addEventListener('submit', e => {
-            e.preventDefault()
-
-
-
-            const texto = otroe.value;
-
-            let correos = ["gmail", "hotmail", "outlook", "yahoo", "live.com"];
-            var resultado = -1;
-            for (let correo of correos) {
-                if (texto.indexOf(correo) !== -1) {
-                    resultado = texto.indexOf(correo);
-                    break;
-                }
-            }
-            if (resultado !== -1) {
-
-                error.innerHTML = "El correo no es corporativo";
-                error.className = "error active";
-
-
-            } else {
-
-                error.innerHTML = "";
-                error.className = "error";
-                btnEn.setAttribute("disabled", false);
-                fetch(scriptURL, {
-                        method: 'POST',
-                        body: new FormData(form)
-                    })
-                    .then(response => Cambio())
-                    .catch(error => console.error('Error!', error.message))
-            }
-
-
-        })
-
-        function Cambio() {
-            titleM.classList.remove("d-block");
-            titleM.classList.add("d-none");
-            titleMC.classList.remove("d-none");
-            titleMC.classList.add("d-block");
-            titleMB.classList.remove("d-block");
-            titleMB.classList.add("d-none");
-            titleMBC.classList.remove("d-none");
-            titleMBC.classList.add("d-block");
-            setTimeout(function() {
-                window.location.href = window.location;
-            }, 1500);
-        }
-    </script>
 </body>
 
 </html>
