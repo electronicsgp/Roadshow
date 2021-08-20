@@ -52,12 +52,15 @@
 @media only screen and (min-width: 768px) {
     .carousel-item .banner-ch {
         content: url("../assets/images/backgounds/chile.jpg");
+        height: 84vh;
     }
     .carousel-item .banner-mx {
         content: url("../assets/images/backgounds/mexico.jpg");
+        height: 84vh;
     }
     .carousel-item .banner-col {
         content: url("../assets/images/backgounds/colombia.jpg");
+        height: 84vh;
     }
     .carousel-caption h1 {
         position: absolute;
