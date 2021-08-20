@@ -41,6 +41,10 @@
     color: var(--secondary-cream);
 }
 
+.bg-cian {
+    background-color: var(--secondary-cream);
+}
+
 .text-pri {
     color: var(--primary-cream);
     font-weight: 700;
@@ -50,6 +54,10 @@
 
 .text-black {
     color: var(--primary-black);
+}
+
+.text-tea {
+    color: var(--primary-cream);
 }
 
 .bg-tick {
@@ -357,8 +365,7 @@ nav {
 }
 
 .modal select#inputState,
-.modal input[type],
-.modal textarea#TextareaMensaje {
+.modal input[type] {
     border-radius: 20px;
     background-color: var(--bg-form);
 }
