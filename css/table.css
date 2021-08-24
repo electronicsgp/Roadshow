@@ -3,6 +3,16 @@
     height: 84vh;
 }
 
+.carousel-item .banner-mx {
+    content: url("../assets/images/backgounds/movil_mexico.jpg");
+    height: 84vh;
+}
+
+.carousel-item .banner-col {
+    content: url("../assets/images/backgounds/movil_colombia.jpg");
+    height: 84vh;
+}
+
 .carousel-inner>.item {
     position: relative;
     max-height: 600px;
