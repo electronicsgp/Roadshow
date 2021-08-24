@@ -20,7 +20,8 @@
     --items-nav-footer: 16px;
     --caption: 12px;
     --body: 18px;
-    --body-mobile: 14px;
+    --body-sm: 15px;
+    --body-mobile: 12px;
     --footer-mobile: 11px;
     --card-unit: 24px;
     --card-unit-mobile: 15px;
@@ -664,8 +665,8 @@ nav {
         transform: translateX(-70%);
     }
     .card-text {
-        font-size: 23px;
-        line-height: 10px;
+        font-size: 20px;
+        line-height: 8px;
     }
     .btn-txtb {
         font-size: 25px;
