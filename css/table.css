@@ -1,6 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .carousel-item .banner-ch {
     content: url("../assets/images/backgounds/movil_chile.jpg");
-    height: 84vh;
+    height: 70vh;
 }
 
 .carousel-item .banner-mx {
@@ -20,7 +24,7 @@
 
 .carousel-caption {
     position: absolute;
-    top: 67%;
+    top: 60%;
     transform: translateY(-90%);
     /* color: var(--primary-cream); */
 }
@@ -29,19 +33,10 @@
     font-size: 35px;
 }
 
-.carousel-caption img {
-    width: 65%;
-    position: absolute;
-    top: -85%;
-    transform: translateY(-100%);
-    left: 5%;
-    transform: translateX(-40%);
-}
-
 .chile img {
-    width: 50%;
+    width: 45%;
     position: absolute;
-    top: -95%;
+    top: -45%;
     transform: translateY(-50%);
     left: 82%;
     transform: translateX(-80%);
@@ -49,9 +44,9 @@
 
 .boleto a {
     position: absolute;
-    top: 145%;
+    top: 70%;
     transform: translateY(50%);
-    left: 62%;
+    left: 68%;
     transform: translateX(-80%);
 }
 
@@ -106,7 +101,7 @@
 @media only screen and (min-width: 768px) {
     .carousel-item .banner-ch {
         content: url("../assets/images/backgounds/chile.jpg");
-        height: 84vh;
+        height: 74vh;
     }
     .carousel-item .banner-mx {
         content: url("../assets/images/backgounds/mexico.jpg");
@@ -118,7 +113,7 @@
     }
     .carousel-caption h1 {
         position: absolute;
-        top: 25%;
+        top: -25%;
         transform: translateY(-60%);
         left: 16%;
         transform: translateX(-50%);
@@ -126,18 +121,10 @@
     .carousel-caption h1 {
         font-size: 50px;
     }
-    .carousel-caption img {
-        width: 33%;
-        position: absolute;
-        top: -80%;
-        transform: translateY(-50%);
-        left: 16%;
-        transform: translateX(-100%);
-    }
     .chile img {
         width: 25%;
         position: absolute;
-        top: -90%;
+        top: -40%;
         transform: translateY(-90%);
         left: 82%;
         transform: translateX(-80%);
@@ -249,21 +236,13 @@
     }
     .carousel-caption h1 {
         font-size: 60px;
-        top: calc(100vh - 95vh);
+        top: calc(100vh - 105vh);
         left: calc(100vh - 85vh);
-    }
-    .carousel-caption img {
-        width: 28%;
-        position: absolute;
-        top: -80%;
-        transform: translateY(-50%);
-        left: 16%;
-        transform: translateX(-100%);
     }
     .chile img {
         width: 21%;
         position: absolute;
-        top: -100%;
+        top: -40%;
         transform: translateY(-90%);
         left: 82%;
         transform: translateX(-80%);
@@ -308,39 +287,31 @@
 @media only screen and (min-width: 1200px) {
     .carousel-caption h1 {
         position: absolute;
-        top: calc(100vh - 95vh);
-        left: calc(100vh - 80vh);
-        font-size: 90px;
-    }
-    .carousel-caption img {
-        width: 24%;
-        position: absolute;
-        top: -95%;
-        transform: translateY(-50%);
-        left: 10%;
-        transform: translateX(-100%);
+        top: calc(100vh - 110vh);
+        left: calc(100vh - 90vh);
+        font-size: 60px;
     }
     .chile img {
-        width: 18%;
+        width: 15%;
         position: absolute;
-        top: -105%;
-        transform: translateY(-50%);
-        left: 82%;
+        top: -45%;
+        transform: translateY(50%);
+        left: 78%;
         transform: translateX(-80%);
     }
     .boleto a {
         position: absolute;
-        top: 115%;
-        transform: translateY(50%);
-        left: 75%;
-        transform: translateX(-80%);
+        top: 145%;
+        transform: translateY(700%);
+        left: 0%;
+        transform: translateX(-30%);
     }
     .card-text {
         font-size: 23px;
         line-height: 10px;
     }
     .btn-txtb {
-        font-size: 25px;
+        font-size: 23px;
         font-weight: 800;
     }
     h3 {
@@ -400,24 +371,16 @@
 @media only screen and (min-width: 1500px) {
     .carousel-caption h1 {
         position: absolute;
-        top: calc(100vh - 95vh);
+        top: calc(100vh -105vh);
         left: calc(100vh - 80vh);
-        font-size: 90px;
-    }
-    .carousel-caption img {
-        width: 20%;
-        position: absolute;
-        top: -85%;
-        transform: translateY(-50%);
-        left: 8%;
-        transform: translateX(-100%);
+        font-size: 60px;
     }
     .chile img {
-        width: 16%;
+        width: 13%;
         position: absolute;
-        top: -105%;
+        top: -45%;
         transform: translateY(50%);
-        left: 82%;
+        left: 72%;
         transform: translateX(-80%);
     }
     .card-text {
@@ -430,20 +393,20 @@
     .title-tea {
         color: var(--primary-cream);
         font-weight: 700;
-        font-size: 45px;
+        font-size: 40px;
     }
     .btn-txtb {
-        font-size: 30px;
+        font-size: 23px;
         font-weight: 800;
     }
     .blue-title {
         color: var(--bg-form);
         font-weight: 800;
-        font-size: 50px;
+        font-size: 35px;
     }
     .subtitle {
         color: var(--primary-cream);
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 600;
     }
     .gerente {
@@ -452,13 +415,13 @@
         font-weight: 600;
     }
     .table .conten {
-        padding: 25px 200px 25px 100px;
+        padding: 25px 150px 25px 15px;
     }
     .table .contenr {
-        padding: 0px 130px 0px 150px;
+        padding: 0px 0px 0px 100px;
     }
     .mtable {
-        margin: 0px 100px 0px 100px;
+        margin: 0px 0px 0px 0px;
     }
     .ptren {
         padding: 100px 0px 100px 0px;
