@@ -1,0 +1,448 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.carousel-item .banner-ch {
+    content: url("../assets/images/backgounds/movil_chile.jpg");
+    height: 50vh;
+}
+
+.carousel-item .banner-mx {
+    content: url("../assets/images/backgounds/movil_mexico.jpg");
+    height: 84vh;
+}
+
+.carousel-item .banner-col {
+    content: url("../assets/images/backgounds/movil_colombia.jpg");
+    height: 84vh;
+}
+
+.carousel-inner>.item {
+    position: relative;
+    max-height: 600px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-90%);
+    /* color: var(--primary-cream); */
+}
+
+.carousel-caption h1 {
+    font-size: 25px;
+}
+
+.chile img {
+    width: 45%;
+    position: absolute;
+    top: 0%;
+    transform: translateY(-50%);
+    left: 82%;
+    transform: translateX(-80%);
+}
+
+.boleto a {
+    position: absolute;
+    top: 100%;
+    transform: translateY(50%);
+    left: 28%;
+    transform: translateX(-80%);
+}
+
+.header h1 {
+    color: var(--white);
+    font-size: 20px;
+}
+
+.header img.icon-line {
+    display: none;
+}
+
+.header .text-slider {
+    height: 65vh;
+}
+
+.title-tea {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.blue-title {
+    color: var(--secondary-cream);
+    font-weight: 800;
+    font-size: 17px;
+}
+
+.subtitle {
+    color: var(--primary-cream);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-txtb {
+    font-size: 11px;
+    line-height: normal;
+    font-weight: 800;
+}
+
+.bg-tren {
+    background-image: url("../assets/images/backgounds/tren.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.btn-inv {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+
+/* Media queries */
+
+@media only screen and (min-width: 768px) {
+    .carousel-item .banner-ch {
+        content: url("../assets/images/backgounds/chile.jpg");
+        height: 50vh;
+    }
+    .carousel-item .banner-mx {
+        content: url("../assets/images/backgounds/mexico.jpg");
+        height: 84vh;
+    }
+    .carousel-item .banner-col {
+        content: url("../assets/images/backgounds/colombia.jpg");
+        height: 84vh;
+    }
+    .carousel-caption h1 {
+        position: absolute;
+        top: -5%;
+        transform: translateY(-60%);
+        left: 16%;
+        transform: translateX(-50%);
+    }
+    .carousel-caption h1 {
+        font-size: 50px;
+    }
+    .chile img {
+        width: 28%;
+        position: absolute;
+        top: -15%;
+        transform: translateY(-90%);
+        left: 82%;
+        transform: translateX(-80%);
+    }
+    .boleto a {
+        position: absolute;
+        top: 115%;
+        transform: translateY(50%);
+        left: 20%;
+        transform: translateX(-80%);
+    }
+    .header .icon-arrow {
+        position: absolute;
+        bottom: calc(110vh - 100vh);
+        left: 50%;
+    }
+    .header h1 {
+        color: var(--white);
+        font-size: 40px;
+    }
+    .header .text-slider {
+        height: 100vh;
+    }
+    body {
+        font-size: var(--body-sm)
+    }
+    h1,
+    h2 {
+        font-size: var(--size-title);
+    }
+    h3 {
+        font-size: 43px;
+    }
+    h5 {
+        font-size: var(--size-subtitle)
+    }
+    /* header section */
+    .title-tea {
+        font-size: 24px;
+    }
+    .blue-title {
+        font-size: 24px;
+    }
+    .subtitle {
+        font-size: 18px;
+    }
+    .table .conten {
+        padding: 25px 100px 25px 50px;
+    }
+    .table .contenr {
+        padding: 0px 50px 0px 70px;
+    }
+    .mtable {
+        margin: 0px 50px 0px 50px;
+    }
+    .btn-txtb {
+        font-size: 25px;
+        line-height: normal;
+        font-weight: 800;
+    }
+    .footer {
+        background-color: var(--primary-cream);
+    }
+    .footer h6 {
+        font-size: var(--body);
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .barra img {
+        content: url("../assets/images/products/codigo.png");
+    }
+    .titlebol {
+        font-size: 21px;
+    }
+    .tpais {
+        font-size: 17px;
+    }
+    .text-pri {
+        font-size: 19px;
+    }
+    .tnumber {
+        font-size: 8px;
+    }
+    .tcode {
+        font-size: 24px;
+    }
+    .tcodenum {
+        font-size: 27px;
+    }
+    .fa-long-arrow-alt-right {
+        font-size: 16px;
+    }
+    .sonda {
+        font-size: 12px;
+    }
+    .brad-bottom {
+        border-radius: 0px 0px 20px 20px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    /* .carousel-item {
+        background-image: url("../assets/images/backgounds/headerFutbol3.jpg");
+
+    } */
+    body {
+        font-size: var(--body)
+    }
+    .carousel-caption h1 {
+        font-size: 60px;
+        top: calc(100vh - 100vh);
+        left: calc(100vh - 90vh);
+    }
+    .chile img {
+        width: 21%;
+        position: absolute;
+        top: -10%;
+        transform: translateY(-90%);
+        left: 82%;
+        transform: translateX(-80%);
+    }
+    .boleto a {
+        position: absolute;
+        top: 115%;
+        transform: translateY(50%);
+        left: 20%;
+        transform: translateX(-80%);
+    }
+    .btn-txtb {
+        font-size: 28px;
+        font-weight: 800;
+    }
+    h3 {
+        font-size: 58px;
+    }
+    .title-tea {
+        font-size: 36px;
+    }
+    .blue-title {
+        font-size: 38px;
+    }
+    .subtitle {
+        font-size: 25px;
+    }
+    .table .conten {
+        padding: 10px 80px 10px 60px;
+    }
+    .table .contenr {
+        padding: 0px 0px 0px 130px;
+    }
+    .mtable {
+        margin: 0px 50px 0px 50px;
+    }
+    .ptren {
+        padding: 100px 0px 100px 0px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .carousel-item .banner-ch {
+        height: 74vh;
+    }
+    .carousel-caption h1 {
+        position: absolute;
+        top: calc(100vh - 103vh);
+        left: calc(100vh - 90vh);
+        font-size: 60px;
+    }
+    .chile img {
+        width: 18%;
+        position: absolute;
+        top: -20%;
+        transform: translateY(50%);
+        left: 78%;
+        transform: translateX(-80%);
+    }
+    .boleto a {
+        position: absolute;
+        top: 145%;
+        transform: translateY(700%);
+        left: 0%;
+        transform: translateX(-30%);
+    }
+    .card-text {
+        font-size: 23px;
+        line-height: 10px;
+    }
+    .btn-txtb {
+        font-size: 23px;
+        font-weight: 800;
+    }
+    h3 {
+        font-size: 75px;
+    }
+    .titlebol {
+        font-size: 33px;
+        font-weight: 800;
+    }
+    .tpais {
+        line-height: 60%;
+        font-size: 30px;
+        font-weight: 500;
+        color: var(--primary-cream);
+    }
+    .text-pri {
+        color: var(--primary-cream);
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 60%;
+    }
+    .tnumber {
+        font-size: 10px;
+        font-weight: 700;
+        color: var(--white);
+    }
+    .tcode {
+        line-height: 0%;
+        font-size: 42px;
+        font-weight: 400;
+    }
+    .tcodenum {
+        letter-spacing: -2px;
+        line-height: 40px;
+        font-size: 41px;
+        font-weight: 700;
+    }
+    .fa-long-arrow-alt-right {
+        font-size: 29px;
+    }
+    .sonda {
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 50%;
+    }
+    .barra img {
+        content: url("../assets/images/products/codigo.png");
+    }
+    .brad-bottom {
+        border-radius: 0px 0px 20px 20px;
+    }
+    /* .carousel-item {
+        background-image: url("../assets/images/backgounds/headerFutbol2.jpg");
+    } */
+}
+
+@media only screen and (min-width: 1500px) {
+    .carousel-caption h1 {
+        position: absolute;
+        top: calc(100vh - 100vh);
+        left: calc(100vh - 80vh);
+        font-size: 60px;
+    }
+    .chile img {
+        width: 13%;
+        position: absolute;
+        top: -10%;
+        transform: translateY(50%);
+        left: 72%;
+        transform: translateX(-80%);
+    }
+    .card-text {
+        font-size: 28px;
+        line-height: 15px;
+    }
+    h3 {
+        font-size: 90px;
+    }
+    .title-tea {
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .btn-txtb {
+        font-size: 23px;
+        font-weight: 800;
+    }
+    .blue-title {
+        font-weight: 800;
+        font-size: 35px;
+    }
+    .subtitle {
+        color: var(--primary-cream);
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .gerente {
+        color: var(--primary-cream);
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .table .conten {
+        padding: 25px 150px 25px 15px;
+    }
+    .table .contenr {
+        padding: 0px 0px 0px 100px;
+    }
+    .mtable {
+        margin: 0px 0px 0px 0px;
+    }
+    .ptren {
+        padding: 100px 0px 100px 0px;
+    }
+    .m-casos {
+        margin: 30px 350px 30px 50px;
+    }
+}
