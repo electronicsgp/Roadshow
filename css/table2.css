@@ -42,6 +42,10 @@ html {
     transform: translateX(-80%);
 }
 
+.m-casos {
+    margin: 30px 40px 30px 20px;
+}
+
 .boleto a {
     position: absolute;
     top: 100%;
@@ -195,6 +199,9 @@ html {
     .mtable {
         margin: 0px 50px 0px 50px;
     }
+    .m-casos {
+        margin: 30px 70px 30px 50px;
+    }
     .btn-txtb {
         font-size: 25px;
         line-height: normal;
@@ -294,6 +301,9 @@ html {
     .mtable {
         margin: 0px 50px 0px 50px;
     }
+    .m-casos {
+        margin: 30px 150px 30px 50px;
+    }
     .ptren {
         padding: 100px 0px 100px 0px;
     }
@@ -334,6 +344,9 @@ html {
     }
     h3 {
         font-size: 75px;
+    }
+    .m-casos {
+        margin: 30px 300px 30px 50px;
     }
     .titlebol {
         font-size: 33px;
@@ -443,6 +456,6 @@ html {
         padding: 100px 0px 100px 0px;
     }
     .m-casos {
-        margin: 30px 350px 30px 50px;
+        margin: 30px 300px 30px 50px;
     }
 }
